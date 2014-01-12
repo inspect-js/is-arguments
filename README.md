@@ -2,7 +2,7 @@
 
 [![Build Status][3]][4] [![dependency status][5]][6] [![dev dependency status][7]][8]
 
-[![npm badge][13]][1]
+[![npm badge][11]][1]
 
 [![browser support][9]][10]
 
@@ -34,7 +34,5 @@ Simply clone the repo, `npm install`, and run `npm test`
 [8]: https://david-dm.org/ljharb/is-arguments#info=devDependencies
 [9]: https://ci.testling.com/ljharb/is-arguments.png
 [10]: https://ci.testling.com/ljharb/is-arguments
-[11]: https://github.com/es-shims/es5-shim/blob/master/es5-shim.js#L542-589
-[12]: https://github.com/bestiejs/lodash
-[13]: https://nodei.co/npm/is-arguments.png?downloads=true&stars=true
+[11]: https://nodei.co/npm/is-arguments.png?downloads=true&stars=true
 
