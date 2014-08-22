@@ -26,11 +26,11 @@ Simply clone the repo, `npm install`, and run `npm test`
 
 [1]: https://npmjs.org/package/is-arguments
 [2]: http://vb.teelaun.ch/ljharb/is-arguments.svg
-[3]: https://travis-ci.org/ljharb/is-arguments.png
+[3]: https://travis-ci.org/ljharb/is-arguments.svg
 [4]: https://travis-ci.org/ljharb/is-arguments
-[5]: https://david-dm.org/ljharb/is-arguments.png
+[5]: https://david-dm.org/ljharb/is-arguments.svg
 [6]: https://david-dm.org/ljharb/is-arguments
-[7]: https://david-dm.org/ljharb/is-arguments/dev-status.png
+[7]: https://david-dm.org/ljharb/is-arguments/dev-status.svg
 [8]: https://david-dm.org/ljharb/is-arguments#info=devDependencies
 [9]: https://ci.testling.com/ljharb/is-arguments.png
 [10]: https://ci.testling.com/ljharb/is-arguments
