@@ -23,4 +23,3 @@ test('old-style arguments object', function (t) {
 	t.ok(isArguments(fakeOldArguments), 'old-style arguments is arguments');
 	t.end();
 });
-
