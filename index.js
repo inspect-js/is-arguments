@@ -1,3 +1,5 @@
+'use strict';
+
 var toStr = Object.prototype.toString;
 
 module.exports = function isArguments(value) {
