@@ -18,10 +18,11 @@ test('arguments object', function (t) {
 });
 
 test('old-style arguments object', function (t) {
+	var isLegacyArguments = isArguments.isLegacyArguments || isArguments;
 	var fakeOldArguments = {
 		length: 3,
 		callee: function () {}
 	};
-	t.ok(isArguments(fakeOldArguments), 'old-style arguments is arguments');
+	t.ok(isLegacyArguments(fakeOldArguments), 'old-style arguments is arguments');
 	t.end();
 });
