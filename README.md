@@ -29,7 +29,7 @@ assert.equal(isArguments([]), false);
 Simply clone the repo, `npm install`, and run `npm test`
 
 [1]: https://npmjs.org/package/is-arguments
-[2]: http://vb.teelaun.ch/ljharb/is-arguments.svg
+[2]: http://versionbadg.es/ljharb/is-arguments.svg
 [3]: https://travis-ci.org/ljharb/is-arguments.svg
 [4]: https://travis-ci.org/ljharb/is-arguments
 [5]: https://david-dm.org/ljharb/is-arguments.svg
