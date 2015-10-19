@@ -2,7 +2,18 @@
 	"name": "is-arguments",
 	"version": "1.0.2",
 	"description": "Is this an arguments object? It's a harder question than you think.",
-	"author": "Jordan Harband",
+	"author": {
+		"name": "Jordan Harband",
+		"email": "ljharb@gmail.com",
+		"url": "http://ljharb.codes"
+	},
+	"contributors": [
+		{
+			"name": "Jordan Harband",
+			"email": "ljharb@gmail.com",
+			"url": "http://ljharb.codes"
+		}
+	],
 	"license": "MIT",
 	"main": "index.js",
 	"scripts": {
