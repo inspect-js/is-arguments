@@ -42,11 +42,11 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"tape": "^4.2.1",
+		"tape": "^4.4.0",
 		"covert": "^1.1.0",
-		"jscs": "^2.3.4",
-		"eslint": "^1.7.1",
-		"@ljharb/eslint-config": "^1.4.1"
+		"jscs": "^2.8.0",
+		"eslint": "^1.10.3",
+		"@ljharb/eslint-config": "^1.6.1"
 	},
 	"testling": {
 		"files": "test.js",
