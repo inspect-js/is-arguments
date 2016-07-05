@@ -47,7 +47,7 @@
 		"tape": "^4.5.1",
 		"covert": "^1.1.0",
 		"jscs": "^3.0.1",
-		"eslint": "^2.7.0",
+		"eslint": "^3.0.1",
 		"@ljharb/eslint-config": "^2.2.0"
 	},
 	"testling": {
