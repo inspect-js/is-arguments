@@ -46,9 +46,9 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"@ljharb/eslint-config": "^9.0.1",
+		"@ljharb/eslint-config": "^11.0.0",
 		"covert": "^1.1.0",
-		"eslint": "^3.11.1",
+		"eslint": "^3.16.1",
 		"jscs": "^3.0.7",
 		"nsp": "^2.6.2",
 		"tape": "^4.6.3"
