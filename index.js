@@ -1,8 +1,12 @@
 'use strict';
 
+var hasToStringTag = typeof Symbol === 'function' && typeof Symbol.toStringTag === 'symbol';
 var toStr = Object.prototype.toString;
 
 var isStandardArguments = function isArguments(value) {
+	if (hasToStringTag && value && Symbol.toStringTag in value) {
+		return false;
+	}
 	return toStr.call(value) === '[object Arguments]';
 };
 

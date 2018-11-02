@@ -25,6 +25,9 @@ assert.equal(isArguments([]), false);
 }())
 ```
 
+## Caveats
+If you have modified an actual `arguments` object by giving it a `Symbol.toStringTag` property, then this package will return `false`.
+
 ## Tests
 Simply clone the repo, `npm install`, and run `npm test`
 
