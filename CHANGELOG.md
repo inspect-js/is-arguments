@@ -1,3 +1,9 @@
+1.0.3 / 2015-09-21
+==================
+  * [Fix] add awareness of Symbol.toStringTag (#20)
+  * [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `tape`, `jscs`, `nsp`
+  * [Tests] up to `node` `v11.1`, `v10.13`, `v9.11`, `v8.12`, `v7.10`, `v6.14`, `v5.11`, `v4.8`; use `nvm install-latest-npm`; pin included builds to LTS.
+
 1.0.2 / 2015-09-21
 ==================
   * [Docs] Switch from vb.teelaun.ch to versionbadg.es for the npm version badge SVG.
