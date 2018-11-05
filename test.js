@@ -7,7 +7,8 @@ var hasToStringTag = typeof Symbol === 'function' && typeof Symbol.toStringTag =
 test('primitives', function (t) {
 	t.notOk(isArguments([]), 'array is not arguments');
 	t.notOk(isArguments({}), 'object is not arguments');
-	t.notOk(isArguments(''), 'string is not arguments');
+	t.notOk(isArguments(''), 'empty string is not arguments');
+	t.notOk(isArguments('foo'), 'string is not arguments');
 	t.notOk(isArguments({ length: 2 }), 'naive array-like is not arguments');
 	t.end();
 });

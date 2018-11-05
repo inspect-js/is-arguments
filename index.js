@@ -4,7 +4,7 @@ var hasToStringTag = typeof Symbol === 'function' && typeof Symbol.toStringTag =
 var toStr = Object.prototype.toString;
 
 var isStandardArguments = function isArguments(value) {
-	if (hasToStringTag && value && Symbol.toStringTag in value) {
+	if (hasToStringTag && value && typeof value === 'object' && Symbol.toStringTag in value) {
 		return false;
 	}
 	return toStr.call(value) === '[object Arguments]';
