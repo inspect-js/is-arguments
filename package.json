@@ -45,10 +45,10 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"@ljharb/eslint-config": "^13.0.0",
-		"covert": "^1.1.0",
-		"eslint": "^5.8.0",
-		"tape": "^4.9.1"
+		"@ljharb/eslint-config": "^13.1.1",
+		"covert": "^1.1.1",
+		"eslint": "^5.12.1",
+		"tape": "^4.9.2"
 	},
 	"testling": {
 		"files": "test.js",
