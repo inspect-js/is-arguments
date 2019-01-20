@@ -23,9 +23,7 @@
 		"posttest": "npm run --silent security",
 		"security": "nsp check",
 		"coverage": "covert test.js",
-		"lint": "npm run --silent jscs && npm run --silent eslint",
-		"jscs": "jscs *.js",
-		"eslint": "eslint *.js"
+		"lint": "eslint ."
 	},
 	"repository": {
 		"type": "git",
@@ -48,7 +46,6 @@
 		"@ljharb/eslint-config": "^13.0.0",
 		"covert": "^1.1.0",
 		"eslint": "^5.8.0",
-		"jscs": "^3.0.7",
 		"nsp": "^3.2.1",
 		"tape": "^4.9.1"
 	},
