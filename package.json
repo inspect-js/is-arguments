@@ -17,6 +17,7 @@
 	"license": "MIT",
 	"main": "index.js",
 	"scripts": {
+		"prepublish": "safe-publish-latest",
 		"pretest": "npm run --silent lint",
 		"test": "npm run --silent tests-only",
 		"tests-only": "node test.js",
@@ -45,10 +46,11 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"@ljharb/eslint-config": "^13.1.1",
+		"@ljharb/eslint-config": "^14.1.0",
 		"covert": "^1.1.1",
-		"eslint": "^5.12.1",
-		"tape": "^4.9.2"
+		"eslint": "^6.4.0",
+		"safe-publish-latest": "^1.1.3",
+		"tape": "^4.11.0"
 	},
 	"testling": {
 		"files": "test.js",
