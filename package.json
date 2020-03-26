@@ -24,7 +24,7 @@
 		"pretest": "npm run --silent lint",
 		"test": "npm run --silent tests-only",
 		"tests-only": "node test.js",
-		"posttest": "npx aud",
+		"posttest": "npx aud --production",
 		"coverage": "covert test.js",
 		"lint": "eslint .",
 		"version": "auto-changelog && git add CHANGELOG.md",
