@@ -5,6 +5,38 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.0](https://github.com/inspect-js/is-arguments/compare/v1.0.4...v1.1.0) - 2020-12-04
+
+### Commits
+
+- [Tests] use shared travis-ci configs [`fd59a37`](https://github.com/inspect-js/is-arguments/commit/fd59a3779f004f36ea8e5ac90b0de9b97ff60755)
+- [Tests] migrate tests to Github Actions [`982a0d6`](https://github.com/inspect-js/is-arguments/commit/982a0d68495b68e2b6ca8f4caa9f8a909ec56755)
+- [Tests] remove `jscs` [`927d4b5`](https://github.com/inspect-js/is-arguments/commit/927d4b5c17b12c40f445491e52a11d5bed311ef6)
+- [meta] add `auto-changelog` [`ef0634b`](https://github.com/inspect-js/is-arguments/commit/ef0634b0c07a12d9144c4db168cb79963326ec6d)
+- [Tests] up to `node` `v12.10`, `v11.15`, `v10.16`, `v8.16`, `v6.17` [`1689f8b`](https://github.com/inspect-js/is-arguments/commit/1689f8bf533c8ab8cd95caf953905e3a204c0cdc)
+- [Tests] up to `node` `v11.7`, `v10.15`, `v8.15`, `v6.16` [`145aaeb`](https://github.com/inspect-js/is-arguments/commit/145aaeb5a35e7abd3a8a5c9ec87c6e37f16ed068)
+- [readme] fix repo URLs, remove defunct badges [`cc484a3`](https://github.com/inspect-js/is-arguments/commit/cc484a3ae787125eccc30a05c63b7ff6a1581591)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `tape` [`c888738`](https://github.com/inspect-js/is-arguments/commit/c888738ef1cf84b973169bbe6219b795de4acfc2)
+- [Tests] run `nyc` on all tests [`0de8efb`](https://github.com/inspect-js/is-arguments/commit/0de8efb8091a3dd5708812cd26ad541f7dca773a)
+- [actions] add automatic rebasing / merge commit blocking [`818775a`](https://github.com/inspect-js/is-arguments/commit/818775aa0c66064965517be554c3bcc57ec0d721)
+- [Robustness] use `call-bind` [`31d0199`](https://github.com/inspect-js/is-arguments/commit/31d0199c1a560f113ff099a2f43068cdfe0af79e)
+- [actions] add "Allow Edits" workflow [`0c55f7d`](https://github.com/inspect-js/is-arguments/commit/0c55f7d254ff335291d9cee39501b247f7248fb9)
+- [meta] create FUNDING.yml [`ca7ed59`](https://github.com/inspect-js/is-arguments/commit/ca7ed597bac29790ac6233ff1bdff7704b870e96)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog` [`1ae5053`](https://github.com/inspect-js/is-arguments/commit/1ae505390efff099c50d0bc786a3ecc8d5303b04)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `tape`; add `safe-publish-latest` [`433f4a5`](https://github.com/inspect-js/is-arguments/commit/433f4a5573810fe689c5e56ad9fe69b6a2229b8c)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `covert`, `tape` [`78ea4e8`](https://github.com/inspect-js/is-arguments/commit/78ea4e8261bc326c1ae7e9e50bb655e8bf128c6b)
+- [Tests] use `npm audit` instead of `nsp` [`07fb85b`](https://github.com/inspect-js/is-arguments/commit/07fb85bf396880648c2d4285273968d478df4711)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `tape` [`2204add`](https://github.com/inspect-js/is-arguments/commit/2204add22fcc15b1ee6aaae90578595b4f6d9647)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `safe-publish-latest` [`ce150c0`](https://github.com/inspect-js/is-arguments/commit/ce150c0c47504779ce812b1aefe044fcad1286af)
+- [Tests] fix tests from 0de8efb [`ee45fc3`](https://github.com/inspect-js/is-arguments/commit/ee45fc387b655de6feac101c478af111d488e144)
+- [Tests] use `npx aud` instead of `nsp` or `npm audit` with hoops [`03a312c`](https://github.com/inspect-js/is-arguments/commit/03a312cdae0aa058cfd094c996acb2af4e785484)
+- [actions] switch Automatic Rebase workflow to `pull_request_target` event [`25d2ef8`](https://github.com/inspect-js/is-arguments/commit/25d2ef8da0b90c834d1fa6b83410205832e271d4)
+- [Dev Deps] update `auto-changelog`, `tape` [`0fe60b7`](https://github.com/inspect-js/is-arguments/commit/0fe60b74b7f1254c386e14d0ea6d9cc074fdf12c)
+- [Dev Deps] update `@ljharb/eslint-config`, `tape` [`4a9cbd0`](https://github.com/inspect-js/is-arguments/commit/4a9cbd0c91fd945ccc97c219d34e0840b0965586)
+- [Dev Deps] update `auto-changelog`; add `aud` [`d9ff7d5`](https://github.com/inspect-js/is-arguments/commit/d9ff7d5f521eec5942019b1d7b38ace475da142f)
+- [meta] add `funding` field [`adec2d2`](https://github.com/inspect-js/is-arguments/commit/adec2d293022ee3ec87479eaeae81bfec1ea1b18)
+- [Tests] only audit prod deps [`f474960`](https://github.com/inspect-js/is-arguments/commit/f474960795eeb6087fc79eed8b787aa067b22ab1)
+
 ## [v1.0.4](https://github.com/inspect-js/is-arguments/compare/v1.0.3...v1.0.4) - 2018-11-05
 
 ### Commits
