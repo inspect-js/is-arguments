@@ -31,12 +31,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/ljharb/is-arguments.git"
+		"url": "git://github.com/inspect-js/is-arguments.git"
 	},
 	"bugs": {
-		"url": "https://github.com/ljharb/is-arguments/issues"
+		"url": "https://github.com/inspect-js/is-arguments/issues"
 	},
-	"homepage": "https://github.com/ljharb/is-arguments",
+	"homepage": "https://github.com/inspect-js/is-arguments",
 	"keywords": [
 		"arguments",
 		"js",
