@@ -45,7 +45,9 @@
 		"is",
 		"object"
 	],
-	"dependencies": {},
+	"dependencies": {
+		"call-bind": "^1.0.0"
+	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^17.3.0",
 		"aud": "^1.1.3",
