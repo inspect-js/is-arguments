@@ -1,6 +1,6 @@
 {
 	"name": "is-arguments",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "Is this an arguments object? It's a harder question than you think.",
 	"author": {
 		"name": "Jordan Harband",
