@@ -51,13 +51,13 @@
 		"has-tostringtag": "^1.0.0"
 	},
 	"devDependencies": {
-		"@ljharb/eslint-config": "^17.6.0",
+		"@ljharb/eslint-config": "^18.0.0",
 		"aud": "^1.1.5",
 		"auto-changelog": "^2.3.0",
 		"eslint": "^7.32.0",
 		"nyc": "^10.3.2",
-		"safe-publish-latest": "^1.1.4",
-		"tape": "^5.3.0"
+		"safe-publish-latest": "^1.1.5",
+		"tape": "^5.3.1"
 	},
 	"testling": {
 		"files": "test.js",
