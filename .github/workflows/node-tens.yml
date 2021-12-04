@@ -4,7 +4,6 @@ on: [pull_request, push]
 
 jobs:
   tests:
-    name: 'node >= 10'
     uses: ljharb/actions/.github/workflows/node.yml@main
     with:
       range: '>= 10'
