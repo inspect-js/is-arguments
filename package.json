@@ -48,8 +48,8 @@
 		"object"
 	],
 	"dependencies": {
-		"call-bind": "^1.0.2",
-		"has-tostringtag": "^1.0.0"
+		"call-bind": "^1.0.8",
+		"has-tostringtag": "^1.0.2"
 	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^21.1.1",
