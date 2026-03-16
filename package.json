@@ -50,7 +50,7 @@
 		"object"
 	],
 	"dependencies": {
-		"call-bound": "^1.0.2",
+		"call-bound": "^1.0.4",
 		"has-tostringtag": "^1.0.2"
 	},
 	"devDependencies": {
