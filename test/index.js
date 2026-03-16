@@ -27,6 +27,8 @@ test('old-style arguments object', function (t) {
 		length: 3
 	};
 	t.ok(isLegacyArguments(fakeOldArguments), 'old-style arguments is arguments');
+	t.ok(isLegacyArguments(arguments), 'real arguments is arguments via legacy check');
+	t.notOk(isLegacyArguments(null), 'null is not arguments via legacy check');
 	t.end();
 });
 
