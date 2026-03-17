@@ -15,7 +15,7 @@ var isStandardArguments = function isArguments(value) {
 	) {
 		return false;
 	}
-	return $toString(value) === '[object Arguments]';
+	return !!value && $toString(value) === '[object Arguments]';
 };
 
 /** @type {import('.')} */
@@ -30,6 +30,7 @@ var isLegacyArguments = function isArguments(value) {
 		&& value.length >= 0
 		&& $toString(value) !== '[object Array]'
 		&& 'callee' in value
+		&& !!value.callee
 		&& $toString(value.callee) === '[object Function]';
 };
 
